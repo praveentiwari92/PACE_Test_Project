@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="TC_Login_Test">
+    <classes>
+      <class name="com.Super_Admin.TC_Login_Test"/>
+    </classes>
+  </test>
+  
+   <test thread-count="1" name="Create_PACE_Project_Test">
+    <classes>
+      <class name="com.Super_Admin.TC_Create_PACE_Project_Test"/>
+    </classes>
+  </test>
+  
+  
+  <test thread-count="1" name="Test_With_Two_Signer">
+    <classes>
+      <class name="com.Super_Admin.TC_Test_With_Two_Signer"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="TC_UNS_Project">
+    <classes>
+      <class name="com.Super_Admin.TC_UNS_Project"/>
+    </classes>
+  </test>
+  
+    <test thread-count="1" name="TC_Special_Offer_Project">
+    <classes>
+      <class name="com.Super_Admin.TC_Special_Offer_Project"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="TC_Sign_on_browser_mail_and_reminder_function">
+    <classes>
+      <class name="com.Super_Admin.TC_Sign_on_browser_mail_and_reminder_function"/>
+    </classes>
+  </test>
+  
+<!--   <test thread-count="1" name="TC_Report"> -->
+<!--     <classes> -->
+<!--       <class name="com.Super_Admin.TC_Report"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+   <test thread-count="1" name="TC_Income_Reminder">
+    <classes>
+      <class name="com.Super_Admin.TC_Income_Reminder"/>
+    </classes>
+  </test>
+  
+    <test thread-count="1" name="TC_Doc_Sign_History">
+    <classes>
+      <class name="com.Super_Admin.TC_Doc_Sign_History"/>
+    </classes>
+  </test>
+  
+     <test thread-count="1" name="TC_Delete_Applicant_In_Mobile_App">
+    <classes>
+      <class name="com.Super_Admin.TC_Delete_Applicant_In_Mobile_App"/>
+    </classes>
+  </test>
+  
+   <test thread-count="1" name="TC_Add_Applicant_After_Submit_Contract">
+    <classes>
+      <class name="com.Super_Admin.TC_Add_Applicant_After_Submit_Contract"/>
+    </classes>
+  </test>
+  
+   <test thread-count="1" name="TC_Increasing_price_at_COC">
+    <classes>
+      <class name="com.Super_Admin.TC_Increasing_price_at_COC"/>
+    </classes>
+  </test>
+  
+   <test thread-count="1" name="TC_Decrease_Price_at_COC">
+    <classes>
+      <class name="com.Super_Admin.TC_Decrease_Price_at_COC"/>
+    </classes>
+  </test>
+  
+    <test thread-count="1" name="TC_Project_By_Vanity_URL">
+    <classes>
+      <class name="com.Super_Admin.TC_Project_By_Vanity_URL"/>
+    </classes>
+  </test>
+  
+</suite>

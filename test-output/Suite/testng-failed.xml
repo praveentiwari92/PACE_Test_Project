@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Create_PACE_Project_Test(failed)">
+    <classes>
+      <class name="com.Super_Admin.TC_Create_PACE_Project_Test">
+        <methods>
+          <include name="TestSetup"/>
+          <include name="Funding_Tab"/>
+        </methods>
+      </class> <!-- com.Super_Admin.TC_Create_PACE_Project_Test -->
+    </classes>
+  </test> <!-- Create_PACE_Project_Test(failed) -->
+  <test thread-count="5" name="TC_Increasing_price_at_COC(failed)">
+    <classes>
+      <class name="com.Super_Admin.TC_Increasing_price_at_COC">
+        <methods>
+          <include name="Funding_Tab"/>
+          <include name="TestSetup"/>
+        </methods>
+      </class> <!-- com.Super_Admin.TC_Increasing_price_at_COC -->
+    </classes>
+  </test> <!-- TC_Increasing_price_at_COC(failed) -->
+  <test thread-count="5" name="TC_Decrease_Price_at_COC(failed)">
+    <classes>
+      <class name="com.Super_Admin.TC_Decrease_Price_at_COC">
+        <methods>
+          <include name="Funding_Tab"/>
+          <include name="TestSetup"/>
+        </methods>
+      </class> <!-- com.Super_Admin.TC_Decrease_Price_at_COC -->
+    </classes>
+  </test> <!-- TC_Decrease_Price_at_COC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
